@@ -11,6 +11,9 @@ export default {
     transparent: 'transparent',
     current: 'currentColor',
     extend: {
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
       colors: {
         // light mode
         tremor: {
@@ -26,7 +29,7 @@ export default {
             muted: '#1A1A1A',
             subtle: '#131313',
             DEFAULT: '#232323',
-            emphasis: '#232323'
+            emphasis: '#373737'
           },
           border: {
             DEFAULT: '#606060'
@@ -58,9 +61,9 @@ export default {
       },
       fontSize: {
         'tremor-label': '0.75rem',
-        'tremor-default': ['0.875rem', { lineHeight: '1.25rem' }],
-        'tremor-title': ['1.125rem', { lineHeight: '1.75rem' }],
-        'tremor-metric': ['1.875rem', { lineHeight: '2.25rem' }]
+        // 'tremor-default': ['0.875rem', { lineHeight: '1.25rem' }],
+        // 'tremor-title': ['1.125rem', { lineHeight: '1.75rem' }],
+        'tremor-metric': ['2.50rem', { lineHeight: '2.25rem' }]
       }
     }
   },
