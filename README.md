@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h3 align= "center" fontSize="60px">
+  Projeto Mindforge
+</h3>
 
-First, run the development server:
+<p align="center">
+    <img src="public/img/frontend.png" alt="Logo" height=530>
+</p>
+
+## :rocket: Tecnologias
+-  Next.js 14
+-  Typescript
+-  @tremor/react
+-  @headlessui
+-  Tailwind.css
+-  Vercel Analytics
+
+## 💻 Sobre o projeto
+
+Este projeto é um front-end de um dashboard desenvolvido para o teste técnico da V4 Company. O layout foi construído em forma de componentes para melhor organização e reutilização do código. Além disso, o modo responsivo foi implementado para garantir uma boa experiência do usuário em diferentes tamanhos de tela.
+
+### Funcionalidades
+
+- [x] **Efeito Menu**: Desenvolvi um efeito dinâmico no background do menu que se adapta ao scroll do usuário.
+- [x] **Menu e listas**: Projetei uma lista intuitiva de botões para o menu do aplicativo.
+- [x] **Saldo em conta**: Integrei a visualização do saldo em conta do cliente diretamente no dashboard.
+- [x] **Listagem Carrossel**: Adicionei botões de controle para uma manipulação mais eficiente da visualização dos itens da sessão.
+- [x] **SVGs como ícones**: Converti SVGs em componentes de ícones para facilitar a manutenção e melhorar a consistência visual.
+- [x] **Sidebar com lógica de navegação**: Implementei uma Sidebar com uma lógica de navegação eficiente e intuitiva.
+- [x] **Layout Responsivo**: Desenvolvi um layout responsivo que se adapta a diferentes tamanhos de tela, garantindo uma experiência do usuário otimizada.
+- [x] **Componentização do Layout**: Organizei o layout em componentes reutilizáveis para melhorar a organização e a manutenção do código.
+
+## :computer_mouse: Instalação e execução
+
+Faça um clone desse repositório e acesse o diretório.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone git@github.com:afonsoburginski/frontend-test.git && cd frontend-test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Instalando as dependências
+$ yarn install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Executanto aplicação
+$ yarn run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## :speech_balloon: Autor
+-  [Github](https://github.com/afonsoburginski/)
+-  [Linkedin](https://www.linkedin.com/in/afonsoburginski/)
+-  [Email](mailto:afonsoburginski@gmail.com/)
 
-## Learn More
+## 📝 Licença
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
