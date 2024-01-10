@@ -17,8 +17,8 @@ const WarningCards: React.FC = () => {
             className="object-cover"
           />
           <Card className="rounded-l-none rounded-r-xl p-4 flex flex-col justify-center h-full">
-            <Title className="text-base sm:text-lg md:text-[22px] ml-4">6º Monthly V4Colli&Co - Sucesso Intelectual</Title>
-            <Text className="mt-1 ml-4">🎉 Prepare-se para alcançar o sucesso intelectual! 🚀✨</Text>
+            <Title className="text-sm sm:text-lg md:text-[22px] ml-2 sm:ml-4">6º Monthly V4Colli&Co - Sucesso Intelectual</Title>
+            <Text className="text-sm sm:text-lg md:text-[22px] ml-2 sm:ml-4">🎉 Prepare-se para alcançar o sucesso intelectual! 🚀✨</Text>
           </Card>
         </Flex>
         <Flex className="items-stretch h-28">
@@ -30,8 +30,8 @@ const WarningCards: React.FC = () => {
             className="object-cover"
           />
           <Card className="rounded-l-none rounded-r-xl p-4 flex flex-col justify-center h-full">
-            <Title className="text-base sm:text-lg md:text-[22px] ml-4">🔔📣 Atenção, investidores da V4Company Colli&Co!</Title>
-            <Text className="mt-1 ml-4">🎉 Prepare-se para alcançar o sucesso intelectual! 🚀✨</Text>
+            <Title className="text-sm sm:text-lg md:text-[22px] ml-2 sm:ml-4">🔔📣 Atenção, investidores da V4Company Colli&Co!</Title>
+            <Text className="text-sm sm:text-lg md:text-[22px] ml-2 sm:ml-4">🎉 Prepare-se para alcançar o sucesso intelectual! 🚀✨</Text>
           </Card>
         </Flex>
       </Grid>
